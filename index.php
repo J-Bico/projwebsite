@@ -160,7 +160,7 @@ $user_data = check_login($con);
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
             <div class="d-grid">
-              <button class="btn btn-lg btn-outline-dark" type="button">Sign Up</button>
+            <a class="btn btn-outline-dark btn-lg" href="signup.php">Sign Up</a>
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@ $user_data = check_login($con);
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
             <div class="d-grid">
-              <button class="btn btn-lg btn-dark" type="button">Sign Up</button>
+            <a class="btn btn-dark btn-lg" href="signup.php">Sign Up</a>
             </div>
           </div>
         </div>
@@ -195,7 +195,7 @@ $user_data = check_login($con);
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
             <div class="d-grid">
-              <button class="btn btn-lg btn-dark" type="button">Sign Up</button>
+              <a class="btn btn-dark btn-lg" href="signup.php">Sign Up</a>
             </div>
           </div>
         </div>
@@ -234,7 +234,8 @@ $user_data = check_login($con);
 
 
 
-  <script src="js/bsjs/index.js" charset="utf-8"></script>
+
+    <script src="js/bsjs/index.js" charset="utf-8"></script>
 </body>
 
 </html>
