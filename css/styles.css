@@ -1,0 +1,265 @@
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../gfonts/Montserrat/static/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../gfonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../gfonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../gfonts/Montserrat/static/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../gfonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: Montserrat-Black;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: Montserrat-Bold;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: Montserrat-Black;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #000;
+}
+
+p {
+    color: #8f8f8f;
+}
+ 
+/* Title */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat-Light;
+}
+
+/* Download Buttons */
+
+.dl-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feat-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feat-ico:hover {
+    color: #ff4c68;
+}
+
+.feat-ico {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+
+.cta-heading {
+    font-family: Montserrat-Black;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.ico {
+    margin: 3% 1%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        width: 50%;
+        transform: rotate(0);
+
+    }
+}
+
+
+/* Sign-Up x Login*/
+
+.login {
+    background-color: #ff4c68;
+}
+
+.loginh {
+    color: #fff;
+}
+
+.signup {
+    background-color: #ff4c68;
+}
+
+hr {
+    color: #ff4c68;
+}
+
+.container {
+    text-align: center;
+}
+
+.r-1 {
+    justify-content: center;
+}
+
+.r-2 {
+    justify-content: center;
+}
+
+.p {
+    color: #fff;
+}
+
+.lblform {
+    color: #fff;
+}
+
+.clck {
+    font-size: medium;
+    text-decoration: none;
+    font-family: Montserrat-Light;
+    color: rgba(255,255,255,.55);
+    
+}
+
+.clck:hover {
+    color: #fff;
+}
+
+
