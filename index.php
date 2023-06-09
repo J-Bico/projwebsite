@@ -232,12 +232,6 @@ $user_data = check_login($con);
     </div>
 
 
-    
-
-    <div class="d-grid">
-    <a class="btn btn-lg btn-outline-dark" href="logout.php">Logout</a>
-    </div>
-  </footer>
 
 
   <script src="js/bsjs/index.js" charset="utf-8"></script>
